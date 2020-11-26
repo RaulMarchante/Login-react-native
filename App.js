@@ -1,49 +1,20 @@
-import React, { useState } from 'react';
-import { StyleSheet, Text, View, TextInput, Image, Button, ToastAndroid } from 'react-native';
+import * as React from 'react';
+import Simed from './Individual/simed'
+/**
+import Login from './Modulos/Login'
+import RegisterVal from './Modulos/RegisterVal'
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import * as RootNavigation from './Modulos/navigationRef';
+*/
 
-export default function App() {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-
-  const pressAndroid = () => {
-    ToastAndroid.show("Hola ", ToastAndroid.SHORT);
-  }
-
-  const pressWeb = () =>{
-        alert("Name: " + username + " ,Password: " + password);
-  }
-
+function App() {
   return (
-    <View style={styles.container}>
-      <Image style={{width: 222, height: 113}} source={require('./img/simed.png')}/>
-      <Text>Usuario</Text>
-      <TextInput
-      style={styles.input}
-      placeholder='ej.Luis'
-      onChangeText={(val)=>setUsername(val)}></TextInput>
-      <Text>Contraseña</Text>
-      <TextInput
-      style={styles.input}
-      placeholder='ej.123'
-      onChangeText={(val)=>setPassword(val)}></TextInput>
-      <Button onPressasd={()=>pressAndroid()} title="Registrar"></Button>
-      <Text>Hello there {username} ,Password: {password}</Text>
-    </View>
-  );
+    <Simed/>
+    );
 }
 
+export default App
 
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  input: {
-    borderWidth: 1,
-    borderColor: '#777',
-    width: 100,
-  }
-});
+

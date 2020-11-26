@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "927631556032",
+    "firebase_url": "https://login-register-rn.firebaseio.com",
+    "project_id": "login-register-rn",
+    "storage_bucket": "login-register-rn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927631556032:android:7450f9cba6f53c8bf41c25",
+        "android_client_info": {
+          "package_name": "react.nativeloginregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927631556032-p46qgtet2vbab258fbn7t8uqr5dl29k5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Al8YUlake_E28RkHmlvyIbDT_cQQ19Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927631556032-p46qgtet2vbab258fbn7t8uqr5dl29k5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
